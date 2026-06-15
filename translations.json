@@ -1,0 +1,22 @@
+{
+  "uz": {
+    "home": "Bosh sahifa",
+    "matches": "O'yinlar",
+    "finals": "Finallar",
+    "settings": "Sozlamalar"
+  },
+
+  "en": {
+    "home": "Home",
+    "matches": "Matches",
+    "finals": "Finals",
+    "settings": "Settings"
+  },
+
+  "ru": {
+    "home": "Главная",
+    "matches": "Матчи",
+    "finals": "Финалы",
+    "settings": "Настройки"
+  }
+}

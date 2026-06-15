@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>UEFA Champions League Portal</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+🏆 UCL Portal
+</div>
+
+<nav>
+
+<a href="index.html">Bosh sahifa</a>
+
+<a href="matches.html">O'yinlar</a>
+
+<a href="seasons.html">Mavsumlar</a>
+
+<a href="standings.html">Jadval</a>
+
+<a href="finals.html">Finallar</a>
+
+<a href="players.html">Yulduzlar</a>
+
+<a href="clubs.html">Klublar</a>
+
+<a href="facts.html">Faktlar</a>
+
+<a href="settings.html">Sozlamalar</a>
+
+</nav>
+
+</header>
+
+<section class="hero">
+
+<h1>
+UEFA Champions League Portal
+</h1>
+
+<p>
+
+Finallar • Statistika • Futbolchilar • Klublar
+
+</p>
+
+<a href="matches.html" class="btn">
+O'yinlarni ko'rish
+</a>
+
+</section>
+
+<section class="live-section">
+
+<h2>🔴 Jonli O'yin</h2>
+
+<div class="live-card">
+
+<span class="live">LIVE</span>
+
+<h3>
+Real Madrid 2 - 1 Arsenal
+</h3>
+
+<p>78'</p>
+
+</div>
+
+</section>
+
+<section class="upcoming">
+
+<h2>📅 Kelgusi O'yinlar</h2>
+
+<div class="cards">
+
+<div class="card">
+
+<h3>
+PSG vs Bayern
+</h3>
+
+<p>
+15 Sentabr 2026
+</p>
+
+<button onclick="setReminder()">
+Eslatma qo'yish
+</button>
+
+</div>
+
+<div class="card">
+
+<h3>
+Real Madrid vs Arsenal
+</h3>
+
+<p>
+16 Sentabr 2026
+</p>
+
+<button onclick="setReminder()">
+Eslatma qo'yish
+</button>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="search-section">
+
+<h2>🔍 Klub qidiruvi</h2>
+
+<input
+type="text"
+id="searchInput"
+placeholder="Klub nomini yozing..."
+onkeyup="searchClub()">
+
+</section>
+
+<section class="clubs">
+
+<h2>🏟 Top Klublar</h2>
+
+<div class="cards">
+
+<div class="club-card">
+
+<img src="images/clubs/real-madrid.png">
+
+<h3>Real Madrid</h3>
+
+</div>
+
+<div class="club-card">
+
+<img src="images/clubs/barcelona.png">
+
+<h3>Barcelona</h3>
+
+</div>
+
+<div class="club-card">
+
+<img src="images/clubs/city.png">
+
+<h3>Manchester City</h3>
+
+</div>
+
+<div class="club-card">
+
+<img src="images/clubs/bayern.png">
+
+<h3>Bayern Munich</h3>
+
+</div>
+
+</div>
+
+</section>
+
+<section class="quick-links">
+
+<h2>⚡ Tezkor Bo'limlar</h2>
+
+<div class="cards">
+
+<div class="card">
+<a href="finals.html">
+🏆 Finallar
+</a>
+</div>
+
+<div class="card">
+<a href="players.html">
+⭐ Futbolchilar
+</a>
+</div>
+
+<div class="card">
+<a href="facts.html">
+📰 Faktlar
+</a>
+</div>
+
+<div class="card">
+<a href="standings.html">
+📊 Jadval
+</a>
+</div>
+
+</div>
+
+</section>
+
+<footer>
+
+<h3>
+UEFA Champions League Portal
+</h3>
+
+<p>
+Owner: Alijonov Asadbek
+</p>
+
+<p>
+© 2026
+</p>
+
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>
+<button onclick="requestPermission()">
+Bildirishnomalarni yoqish
+</button>
+<div class="menu-btn"
+onclick="toggleMenu()">
+
+☰
+
+</div>

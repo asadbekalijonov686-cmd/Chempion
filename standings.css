@@ -1,0 +1,44 @@
+.standing-table{
+
+width:100%;
+
+border-collapse:collapse;
+
+background:#10294f;
+
+}
+
+.standing-table th,
+.standing-table td{
+
+padding:15px;
+
+border:1px solid #1e4d91;
+
+text-align:center;
+
+}
+
+.standing-table th{
+
+background:#0d47a1;
+
+}
+
+.standing-table tr:hover{
+
+background:#183b6d;
+
+}
+
+.legend{
+
+background:#10294f;
+
+padding:20px;
+
+border-radius:12px;
+
+margin-top:20px;
+
+}

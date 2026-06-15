@@ -1,0 +1,45 @@
+.settings-card{
+
+background:#10294f;
+
+padding:25px;
+
+border-radius:15px;
+
+margin-bottom:20px;
+
+}
+
+.settings-card h2{
+
+margin-bottom:15px;
+
+}
+
+.settings-card select{
+
+width:100%;
+
+padding:12px;
+
+border:none;
+
+border-radius:10px;
+
+font-size:16px;
+
+}
+
+.settings-card button{
+
+margin-right:10px;
+
+margin-top:10px;
+
+}
+
+.settings-card label{
+
+font-size:18px;
+
+}

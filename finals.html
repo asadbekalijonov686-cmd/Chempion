@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>UEFA Finallari</title>
+
+<link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+🏆 UCL Portal
+</div>
+
+<nav>
+
+<a href="index.html">Bosh sahifa</a>
+
+<a href="matches.html">O'yinlar</a>
+
+<a href="seasons.html">Mavsumlar</a>
+
+<a href="standings.html">Jadval</a>
+
+<a href="finals.html">Finallar</a>
+
+<a href="players.html">Yulduzlar</a>
+
+<a href="facts.html">Faktlar</a>
+
+<a href="settings.html">Sozlamalar</a>
+
+</nav>
+
+</header>
+
+<section>
+
+<h1>
+🏆 UEFA Champions League Finallari
+</h1>
+
+<br>
+
+<input
+type="text"
+id="finalSearch"
+placeholder="Yil, klub yoki stadion..."
+onkeyup="searchFinals()">
+
+<br><br>
+
+<table class="final-table">
+
+<tr>
+
+<th>Yil</th>
+
+<th>G'olib</th>
+
+<th>Final</th>
+
+<th>Stadion</th>
+
+<th>Shahar</th>
+
+</tr>
+
+<tr class="final-row">
+<td>2025</td>
+<td>PSG</td>
+<td>PSG 5-0 Inter</td>
+<td>Allianz Arena</td>
+<td>Munich</td>
+</tr>
+
+<tr class="final-row">
+<td>2024</td>
+<td>Real Madrid</td>
+<td>Real Madrid 2-0 Dortmund</td>
+<td>Wembley Stadium</td>
+<td>London</td>
+</tr>
+
+<tr class="final-row">
+<td>2023</td>
+<td>Manchester City</td>
+<td>Man City 1-0 Inter</td>
+<td>Ataturk Olympic Stadium</td>
+<td>Istanbul</td>
+</tr>
+
+<tr class="final-row">
+<td>2022</td>
+<td>Real Madrid</td>
+<td>Real Madrid 1-0 Liverpool</td>
+<td>Stade de France</td>
+<td>Paris</td>
+</tr>
+
+<tr class="final-row">
+<td>2021</td>
+<td>Chelsea</td>
+<td>Chelsea 1-0 Man City</td>
+<td>Estadio do Dragao</td>
+<td>Porto</td>
+</tr>
+
+<tr class="final-row">
+<td>2020</td>
+<td>Bayern Munich</td>
+<td>Bayern 1-0 PSG</td>
+<td>Estadio da Luz</td>
+<td>Lisbon</td>
+</tr>
+
+<tr class="final-row">
+<td>2019</td>
+<td>Liverpool</td>
+<td>Liverpool 2-0 Tottenham</td>
+<td>Metropolitano</td>
+<td>Madrid</td>
+</tr>
+
+<tr class="final-row">
+<td>2018</td>
+<td>Real Madrid</td>
+<td>Real Madrid 3-1 Liverpool</td>
+<td>NSC Olimpiyskiy</td>
+<td>Kyiv</td>
+</tr>
+
+<tr class="final-row">
+<td>2017</td>
+<td>Real Madrid</td>
+<td>Real Madrid 4-1 Juventus</td>
+<td>Millennium Stadium</td>
+<td>Cardiff</td>
+</tr>
+
+<tr class="final-row">
+<td>2016</td>
+<td>Real Madrid</td>
+<td>1-1 (5-3 pen)</td>
+<td>San Siro</td>
+<td>Milan</td>
+</tr>
+
+<tr class="final-row">
+<td>2015</td>
+<td>Barcelona</td>
+<td>Barcelona 3-1 Juventus</td>
+<td>Olympiastadion</td>
+<td>Berlin</td>
+</tr>
+
+<tr class="final-row">
+<td>2014</td>
+<td>Real Madrid</td>
+<td>Real Madrid 4-1 Atletico</td>
+<td>Estadio da Luz</td>
+<td>Lisbon</td>
+</tr>
+
+<tr class="final-row">
+<td>2013</td>
+<td>Bayern Munich</td>
+<td>Bayern 2-1 Dortmund</td>
+<td>Wembley Stadium</td>
+<td>London</td>
+</tr>
+
+<tr class="final-row">
+<td>2012</td>
+<td>Chelsea</td>
+<td>1-1 (4-3 pen)</td>
+<td>Allianz Arena</td>
+<td>Munich</td>
+</tr>
+
+<tr class="final-row">
+<td>2011</td>
+<td>Barcelona</td>
+<td>Barcelona 3-1 Man United</td>
+<td>Wembley Stadium</td>
+<td>London</td>
+</tr>
+
+<tr class="final-row">
+<td>2010</td>
+<td>Inter</td>
+<td>Inter 2-0 Bayern</td>
+<td>Santiago Bernabeu</td>
+<td>Madrid</td>
+</tr>
+
+<tr class="final-row">
+<td>2009</td>
+<td>Barcelona</td>
+<td>Barcelona 2-0 Man United</td>
+<td>Stadio Olimpico</td>
+<td>Rome</td>
+</tr>
+
+<tr class="final-row">
+<td>2008</td>
+<td>Man United</td>
+<td>1-1 (6-5 pen)</td>
+<td>Luzhniki</td>
+<td>Moscow</td>
+</tr>
+
+<tr class="final-row">
+<td>2007</td>
+<td>AC Milan</td>
+<td>Milan 2-1 Liverpool</td>
+<td>Olympic Stadium</td>
+<td>Athens</td>
+</tr>
+
+<tr class="final-row">
+<td>2006</td>
+<td>Barcelona</td>
+<td>Barcelona 2-1 Arsenal</td>
+<td>Stade de France</td>
+<td>Paris</td>
+</tr>
+
+</table>
+
+</section>
+
+<footer>
+
+<h3>
+UEFA Champions League Portal
+</h3>
+
+<p>
+Owner: Alijonov Asadbek
+</p>
+
+</footer>
+
+<script src="js/app.js"></script>
+
+</body>
+</html>

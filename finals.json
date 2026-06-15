@@ -1,0 +1,29 @@
+[
+  {
+    "year": 2025,
+    "winner": "PSG",
+    "runner_up": "Inter",
+    "score": "5-0",
+    "stadium": "Allianz Arena",
+    "city": "Munich",
+    "goals": ["Hakimi", "Dembele", "Kvaratskhelia", "Mayulu"]
+  },
+  {
+    "year": 2024,
+    "winner": "Real Madrid",
+    "runner_up": "Borussia Dortmund",
+    "score": "2-0",
+    "stadium": "Wembley Stadium",
+    "city": "London",
+    "goals": ["Carvajal", "Vinicius Jr"]
+  },
+  {
+    "year": 2023,
+    "winner": "Manchester City",
+    "runner_up": "Inter",
+    "score": "1-0",
+    "stadium": "Ataturk Olympic Stadium",
+    "city": "Istanbul",
+    "goals": ["Rodri"]
+  }
+]
